@@ -1,0 +1,3 @@
+[submodule "aiawn-backend"]
+	path = aiawn-backend
+	url = https://github.com/MahesaInsan/aiawn-backend.git
