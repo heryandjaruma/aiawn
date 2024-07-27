@@ -1,3 +1,6 @@
 [submodule "aiawn-backend"]
 	path = aiawn-backend
 	url = https://github.com/MahesaInsan/aiawn-backend.git
+[submodule "aiawn-mobile"]
+	path = aiawn-mobile
+	url = https://github.com/fabianhabil/aiawn-mobile.git
