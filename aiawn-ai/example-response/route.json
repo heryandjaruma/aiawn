@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "status": "OK",
+  "data": {
+    "message": {
+      "success": "true",
+      "reasoning": "First I search the destination place Grab Office with text_search, then find the routes with get_routes.",
+      "message": "You can go to Grab Office with this.",
+      "displayType": "JOURNEY_PLANNING",
+      "call_id": [
+        "call_Uzd1eLOmmKQaE7IRcuEXRqpW"
+      ]
+    }
+  }
+}

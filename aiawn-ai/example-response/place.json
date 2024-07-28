@@ -1,0 +1,17 @@
+{
+  "code": 200,
+  "status": "OK",
+  "data": {
+    "message": {
+      "success": "true",
+      "reasoning": "To find food around Binus Kemanggisan, I used the text search function with the query 'restaurants near Binus Kemanggisan'.",
+      "message": "I have found restaurants near Binus Kemanggisan.",
+      "displayType": "FOOD",
+      "call_id": [
+        "place_Uzd1eLOmmKQaE7IRcuEXRqpW",
+        "place_Uzd1eLOmmKQaE7IRcasfRqpW",
+        "place_Uzd1eLOdasfsadfsdfsdfmmK"
+      ]
+    }
+  }
+}

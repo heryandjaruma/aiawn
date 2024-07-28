@@ -1,0 +1,99 @@
+[
+  {
+    "name": "get_nearby_places",
+    "description": "Search for a nearby places, given a coordinate point of latitude and longitude.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "latitude": {
+          "type": "integer",
+          "description": "Given latitude value"
+        },
+        "longitude": {
+          "type": "integer",
+          "description": "Given longitude value"
+        }
+      },
+      "required": ["latitude","longitude"]
+    }
+  },
+  {
+    "name": "get_text_search",
+    "description": "Information about a set of places based on a string — for example 'pizza in New York' or 'shoe stores near Ottawa' or '123 Main Street'. The service responds with a list of places matching the text string and any location bias that has been set.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "textQuery": {
+          "type": "string",
+          "description": "A text query to search."
+        }
+      },
+      "required": ["textQuery"]
+    }
+  },
+  {
+    "name": "get_geocoding",
+    "description": "Converts addresses such as '1600 Amphitheatre Parkway, Mountain View, CA' into latitude and longitude coordinates or Place IDs.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "address": {
+          "type": "string",
+          "description": "Given address as query from users."
+        }
+      },
+      "required": ["address"]
+    }
+  },
+  {
+    "name": "get_reverse_geocoding",
+    "description": "Converts latitude/longitude coordinates or a Place ID into a human-readable address.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "latlng": {
+          "type": "string",
+          "description": "Given latitude longitude coordinate."
+        }
+      },
+      "required": ["latlng"]
+    }
+  },
+  {
+    "name": "get_autocomplete",
+    "description": "The Autocomplete (New) service is a web service that returns place predictions and query predictions in response to an HTTP request. In the request, specify a text search string and geographic bounds that controls the search area.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "inputstr": {
+          "type": "string",
+          "description": "Input string to search."
+        }
+      },
+      "required": ["inputstr"]
+    }
+  },
+  {
+    "name": "get_routes",
+    "description": "The Routes API is a service that accepts an HTTPS request and returns either the ideal route between two locations, or distances and travel times for a matrix of routes between different origin and destination locations.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "originLatLng": {
+          "type": "string",
+          "description": "Start latitude longitude coordinate."
+        },
+        "destinationLatLng": {
+          "type": "string",
+          "description": "End latitude longitude coordinate."
+        },
+        "travelMode": {
+          "type": "string",
+          "enum": ["TWO_WHEELER", "TRANSIT", "DRIVE"],
+          "description": "Mode of travel."
+        }
+      },
+      "required": ["originLatLng", "destinationLatLng", "travelMode"]
+    }
+  } 
+]
