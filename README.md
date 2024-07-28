@@ -19,6 +19,10 @@ GRABesk, with the tagline "Simply ask.", is a chatbot within the Grab app, desig
 We utilize multi-agent systems and Retrieval-Augmented Generation (RAG) as the core architecture, as depicted in the image above. Jarvis Alpha, our advanced model capable of complex reasoning, serves as the heart of our app. The RAG framework, enhanced by function calling, significantly improves the domain knowledge of our application.
 
 
+## Submodules
+The project repository is implemented using Git submodules. To view each individual commit for the frontend, backend, and backend-py, please refer to the respective submodules.
+
+
 ## App Screeens
 ![app_screens](./architecture/screens.png)
 
