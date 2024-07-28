@@ -4,13 +4,6 @@
 
 ### GRABesk - Hackathon project of *hackjakarta 2024* by team Smileyface :)
 
-## Project contributors
-
-- Heryan Djaruma, Lead & AI Strategist
-- Fabian Habil Ramdhan, Frontend
-- Mahesa Insan Raushanfikir, Backend
-- Vania Chrysilla, Product Manager
-
 ## Top-level Summary
 GRABesk, with the tagline "Simply ask.", is a chatbot within the Grab app, designed to cater to Gen Z's food ordering preferences. It can handle users' food requests, such as "Find spicy food near me" or "I want Korean food." By recognizing the user's current location, GRABesk leverages OpenAI's latest generative AI model, enhancing its capabilities through a multi-agent and Retrieval-Augmented Generation (RAG) system. Additionally, GRABesk uses the Google Maps API as a substitute for Grab's in-house map, ensuring precise and efficient location services.
 
@@ -24,3 +17,17 @@ GRABesk, with the tagline "Simply ask.", is a chatbot within the Grab app, desig
 4. Response generation
 
 We utilize multi-agent systems and Retrieval-Augmented Generation (RAG) as the core architecture, as depicted in the image above. Jarvis Alpha, our advanced model capable of complex reasoning, serves as the heart of our app. The RAG framework, enhanced by function calling, significantly improves the domain knowledge of our application.
+
+
+## App Screeens
+![app_screens](./architecture/screens.png)
+
+
+## Project contributors
+
+- [Heryan Djaruma](https://www.linkedin.com/in/heryandjaruma/), Lead & AI Strategist
+- [Fabian Habil Ramdhan](https://www.linkedin.com/in/fabianhabil/), Frontend Developer
+- [Mahesa Insan Raushanfikir](https://www.linkedin.com/in/mahesainsan/), Backend Developer
+- [Vania Chrysilla](https://www.linkedin.com/in/vaniachrysilla/), Product Manager
+
+![project_contributors](./architecture/contributors.png)
